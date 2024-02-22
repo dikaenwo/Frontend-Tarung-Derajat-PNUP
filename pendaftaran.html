@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/e52752acf1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="icofont/icofont.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="pendaftaran.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center mt-5 mb-5">
+        <img
+          src="assets/logopnup.png"
+          width="80px"
+          style="margin-right: 20px"
+          alt=""
+        />
+        <img src="assets/logotr.jpeg" width="90px" alt="" />
+        <br />
+        <br />
+        <p>Jadilah Bagian Dari Petarung</p>
+      </div>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Nama Lengkap</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEmail4"
+              placeholder="Nama"
+            />
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputPassword4">Nomor Telpon</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Nomor Telepon"
+            />
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputPassword4">Nomor Telpon Orang Tua</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Nomor Telepon"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Tanggal Lahir</label>
+            <input
+              type="date"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Asal Daerah"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Nama Orang Tua</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Nama Orang Tua"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputCity">Asal Daerah</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Asal Daerah"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputState">Alamat</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Alamat Sekarang"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputState">Jurusan</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Jurusan"
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Prodi</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Prodi"
+            />
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Angkatan</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Angkatan"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"
+            >Alasan Mengikuti UKM Tarung Derajat</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <button type="button" class="btn btn-dark" onclick="submitForm()">
+          Daftar
+        </button>
+      </form>
+      <br />
+    </div>
+
+    <script>
+      function submitForm() {
+        alert("Registration successful!");
+        window.location.href = "index.html";
+      }
+    </script>
+  </body>
+</html>

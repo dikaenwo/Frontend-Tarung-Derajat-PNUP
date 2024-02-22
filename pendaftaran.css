@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("font/MYRIAD_PRO_BOLD.TTF") format("truetype");
+  /* Tambahkan format dan path sesuai dengan tipe font yang Anda miliki */
+}
+
+@font-face {
+  font-family: "Myriad Pro Regular";
+  src: url("font/MYRIAD_PRO_REGULAR.TTF") format("truetype");
+  /* Tambahkan format dan path sesuai dengan tipe font yang Anda miliki */
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("font/Poppins-Bold.ttf") format("truetype");
+  /* Tambahkan format dan path sesuai dengan tipe font yang Anda miliki */
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("font/Poppins-Regular.ttf") format("truetype");
+  /* Tambahkan format dan path sesuai dengan tipe font yang Anda miliki */
+}
+
+@font-face {
+  font-family: "Inter Semi";
+  src: url("font/Inter-SemiBold.ttf") format("truetype");
+  /* Tambahkan format dan path sesuai dengan tipe font yang Anda miliki */
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  src: url("font/Poppins-Light.ttf") format("truetype");
+  /* Tambahkan format dan path sesuai dengan tipe font yang Anda miliki */
+}
+
+@font-face {
+  font-family: "Poppins Semi";
+  src: url("font/Poppins-SemiBold.ttf") format("truetype");
+  /* Tambahkan format dan path sesuai dengan tipe font yang Anda miliki */
+}
+
+label {
+  font-family: "Poppins Regular";
+}
+
+p {
+  font-family: "Poppins Semi";
+}

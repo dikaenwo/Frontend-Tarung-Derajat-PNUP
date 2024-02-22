@@ -1,0 +1,48 @@
+* {
+  font-family: Tahoma;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form input {
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 200px;
+}
+
+.login {
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+  background-color: black;
+}
+
+.login a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.element {
+  position: absolute;
+  font-size: 12px;
+  margin-top: -53px;
+  margin-left: 160px;
+}
+
+form img {
+  width: 125px;
+  margin-bottom: 30px;
+  margin-left: 24%;
+}
+
+form h1 {
+  margin-left: 23px;
+  font-size: 25px;
+}
